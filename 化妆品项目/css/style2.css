@@ -1,0 +1,191 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+/*iconFont*/
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*文本流本分开始*/
+	@media screen and (min-width:800px) {
+		.wenbenNav{
+			width: 100%;
+			height:60px;
+			border-bottom:1px solid rgb(68,68,68);
+			border-top:1px solid rgb(68,68,68);
+			background-color: rgb(0,0,0);
+		}
+		.wenbenNav .wen_nav{
+			width:90%;
+			height: 60px;
+			line-height: 60px;
+			margin: 0 auto;
+		}
+		.wenbenNav .wen_nav p{
+			color:rgb(170,170,170);
+			font-size: 15px;
+		}
+		.wenbenNav .wen_nav p a{
+			color:rgb(170,170,170);
+			text-decoration: none;
+		}
+		.texting{
+			width:100%;
+			/*overflow:hidden;*/
+			height:2200px;
+			background-color:rgb(0,0,0);
+		}
+		.texting .textBox{
+			width:1200px;
+			height:100%;
+			/*background-color: yellow;*/
+			margin:0 auto;
+			padding-top:60px;
+			/*overflow:hidden;*/
+			position: relative;
+			clear:both;
+		}
+		.texting .textBox ul li{
+			width:355px;
+			/*overflow:hidden;*/
+			background-color: rgb(38,38,38);
+			margin-right:35px;
+			margin-bottom:35px;
+			/*float: left;*/
+			position:absolute;
+			left: 0;
+			list-style: none;
+			transition:all 1s ease 0s;
+		}
+		.texting .textBox ul li img{
+			width: 355px;
+			height: 370px;
+		}
+		.texting .textBox ul li h3{
+			padding:0 20px;
+			color:rgb(160,160,160);
+			font-size:16px;
+			font-weight:600;
+			margin-top:40px;
+			
+		}
+		.texting .textBox ul li p{
+			font-size:13px;
+			color:rgb(102,102,102);
+			padding:0 20px;
+			margin-top:30px;
+			padding-bottom:30px;
+		}
+		.texting .textBox ul li:hover{
+			margin-top:-15px;
+			box-shadow:0px 0px 10px 6px gray;
+		}
+		.mar{
+			width:55px;
+			height:55px;
+			background-color: black;
+			border-radius:50% ;
+			text-align: center;
+			position: absolute;
+			top:30%;
+			left:45%;
+		}
+		.mar span{
+			display:inline-block;
+			color:white;
+		}
+		.mar span:nth-child(1){
+			font-size:13px;
+		}
+	}
+	@media screen and (max-width:800px) {
+		.wenbenNav{
+			width: 100%;
+			height:60px;
+			border-bottom:1px solid rgb(68,68,68);
+			border-top:1px solid rgb(68,68,68);
+			background-color: rgb(0,0,0);
+			margin-top:61px;
+		}
+		.wenbenNav .wen_nav{
+			width:90%;
+			height: 60px;
+			line-height: 60px;
+			margin: 0 auto;
+		}
+		.wenbenNav .wen_nav p{
+			color:rgb(170,170,170);
+			font-size: 13px;
+		}
+		.wenbenNav .wen_nav p a{
+			color:rgb(170,170,170);
+			text-decoration: none;
+		}
+		.texting{
+			margin-top:2px;
+			width:100%;
+			overflow:hidden;
+			/*height:2200px;*/
+			background-color:rgb(0,0,0);
+			padding-top:40px;
+		}
+		.texting ul li {
+			list-style:none;
+			margin: 0 auto;
+			width: 95%;
+			background-color: rgb(38,38,38);
+			border: 1px solid rgb(19,19,19);
+		}
+		.texting ul li img{
+			width:100%;
+		}
+		.texting .textBox ul li h3{
+			padding:0 20px;
+			color:rgb(160,160,160);
+			font-size:16px;
+			font-weight:600;
+			margin-top:40px;
+			
+		}
+		.texting .textBox ul li p{
+			font-size:13px;
+			color:rgb(102,102,102);
+			padding:0 20px;
+			margin-top:30px;
+			padding-bottom:30px;
+		}
+		.mar{
+			width:55px;
+			height:55px;
+			background-color: black;
+			border-radius:50% ;
+			text-align: center;
+			position: absolute;
+			top:30%;
+			left:45%;
+		}
+		.mar span{
+			display:inline-block;
+			color:white;
+		}
+		.mar span:nth-child(1){
+			font-size:13px;
+		}
+		.mode{
+			display:none;
+		}
+	}
+/*文本流本分结束*/

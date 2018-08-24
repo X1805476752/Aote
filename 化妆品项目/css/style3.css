@@ -1,0 +1,280 @@
+
+/*主内容开始*/
+	@media screen and (min-width:800px) {
+		.Dlcont{
+			width:100%;
+			/*height:700px;*/
+			overflow:hidden;
+			background-color: black;
+			border-top:1px solid rgb(61,61,61);
+		}
+		.Dlcont .Dlcont_content{
+			width:1200px;
+			max-width:1200px;
+			height:850px;
+			margin:0 auto;
+			overflow: hidden;
+			background-color: black;
+		}
+		.Dlcont .Dlcont_content .cont_left{
+			width:calc(100% / 2);
+			/*height:700px;*/
+			/*background-color:yellow;*/
+			float:left;
+		}
+		.Dlcont .Dlcont_content .cont_left img{
+			margin-top:120px;
+		}
+		.Dlcont .Dlcont_content .cont_right{
+			width:calc(100% / 2);
+			/*height:700px;*/
+			float:right;
+		}
+		.Dlcont .Dlcont_content .cont_right #right_conten{
+			width: 445px;
+			height: 305px;
+			border-radius:10px;
+			background-color: rgb(38,38,38);
+			margin-top:20%;
+			margin-left:10%;
+			padding: 35px;
+			position: relative;
+		}
+		.cont_right #right_conten p{
+			width:440px;
+			height:40px;
+			
+		}
+		.cont_right #right_conten p i{
+			color:red;
+		}
+		.cont_right #right_conten p.p2{
+			margin-top:20px;
+		}
+		.cont_right #right_conten p span{
+			color: rgb(170,170,170);
+			font-size: 13px;
+		}
+		.cont_right #right_conten p input{
+			width:260px;
+			height:31px;
+			outline: none;
+			border-radius:5px;
+			float:right;
+		}
+		.cont_right #right_conten .tishi{
+			/*display:block;*/
+			width:260px;
+			height:35px;
+			background-color: rgb(209,66,66);
+			color:white;
+			border-radius:5px;
+			float:right;
+			margin-top:15px;
+			margin-bottom:10px;
+			/*display: none;*/
+		}
+		.tiaokuan{
+			color: rgb(136,136,136);
+			font-size:13px;
+			float:right;
+			margin-left:10px;
+			margin-top: 15px;
+		}
+		.tiao{
+			float:right;
+			margin-top:18px;
+		}
+		hr{
+			margin-top: 60px;
+		}
+		#right_conten button{
+			width:56px;
+			height:38px;
+			border:1px solid rgb(239,193,124);
+			font-size: 15px;
+			border-radius:5px;
+			margin-top: 15px;
+			margin-left: 15px;
+			outline: none;
+		}
+		#right_conten button#denglus{
+			background-color: rgb(239,193,124);
+			color:rgb(38,38,38);
+		}
+		#right_conten button#zhuce{
+			background-color: rgb(38,38,38);
+			color:rgb(239,193,124);		
+		}
+		.sanfang{
+			font-size:14px;
+			color:rgb(136,136,136);
+			margin-top:10px;
+			margin-left:15px;
+		}
+		.sanfang img{
+			position: relative;
+			top:5px;
+		}
+		#right_conten a{
+			font-size: 15px;
+			color:rgb(170,170,170);
+			position:absolute;
+			bottom:40px;
+			right:30px;
+			text-decoration: none;
+		}
+		.shuoming{
+			width:500px;
+			height:250px;
+			padding-top:40px;
+			padding-left: 60px;
+		}
+		.shuoming dl{
+			color: white;
+			font-size:14px;
+		}
+		.shuoming dl span{
+			color:rgb(239,193,124);
+		}
+		.shuoming dl dt{
+			margin-bottom:30px;
+		}
+		.shuoming dl dd{
+			line-height:30px;
+		}
+	}
+
+	@media screen and (max-width:800px) {
+		.Dlcont{
+			width:100%;
+			background-color: black;
+			border-top:1px solid rgb(61,61,61);
+			margin-top:60px;
+			overflow:hidden;
+		}
+		.Dlcont .Dlcont_content{
+			width:100%;
+			margin:0 auto;
+			background-color: black;
+		}
+		.Dlcont .Dlcont_content .cont_left{
+			width:100%;
+			height:400px;
+			float:left;
+		}
+		.Dlcont .Dlcont_content .cont_left img{
+			padding-top:30px;
+			width:100%;
+			height:400px;
+		}
+		.Dlcont .Dlcont_content .cont_right{
+			width:100%;
+			height:600px;
+			/*background-color:blue;*/
+			float:left;
+			
+		}
+		.Dlcont .Dlcont_content .cont_right #right_conten{
+			width: 60%;
+			height:250px;
+			border-radius:10px;
+			background-color: rgb(38,38,38);
+			margin-top:20%;
+			/*margin-left:10%;*/
+			margin: 0 auto;
+			padding: 35px;
+			position: relative;
+		}
+		.cont_right #right_conten p{
+			width:100%;
+			height:40px;
+		}
+		.cont_right #right_conten p.p2{
+			margin-top:20px;
+		}
+		.cont_right #right_conten p span{
+			color: rgb(170,170,170);
+			font-size: 13px;
+		}
+		.cont_right #right_conten p input{
+			width:200px;
+			height:25px;
+			outline: none;
+			border-radius:5px;
+			float:right;
+		}
+		.cont_right #right_conten .tishi{
+			/*display:block;*/
+			width:260px;
+			height:35px;
+			background-color: rgb(209,66,66);
+			color:white;
+			border-radius:5px;
+			float:right;
+			margin-top:15px;
+			margin-bottom:10px;
+			/*display: none;*/
+		}
+		hr{
+			margin-top:10px;
+		}
+		#right_conten button{
+			width:45px;
+			height:30px;
+			border:1px solid rgb(239,193,124);
+			font-size: 15px;
+			border-radius:5px;
+			margin-top: 15px;
+			margin-left: 15px;
+			outline: none;
+		}
+		#right_conten button#denglus{
+			background-color: rgb(239,193,124);
+			color:rgb(38,38,38);
+		}
+		#right_conten button#zhuce{
+			background-color: rgb(38,38,38);
+			color:rgb(239,193,124);		
+		}
+		.sanfang{
+			font-size:14px;
+			color:rgb(136,136,136);
+			margin-top:10px;
+			margin-left:15px;
+		}
+		.sanfang img{
+			position: relative;
+			top:5px;
+		}
+		#right_conten a{
+			font-size: 14px;
+			color:rgb(170,170,170);
+			position:absolute;
+			bottom:10px;
+			right:30px;
+			text-decoration: none;
+		}
+		.shuoming{
+			width:400px;
+			height:250px;
+			padding-top:40px;
+			padding-left:20px;
+			margin: 0 auto;
+		}
+		.shuoming dl{
+			color: white;
+			font-size:12px;
+		}
+		.shuoming dl span{
+			color:rgb(239,193,124);
+		}
+		.shuoming dl dt{
+			margin-bottom:30px;
+		}
+		.shuoming dl dd{
+			line-height:30px;
+		}
+	}
+
+/*主内容结束*/

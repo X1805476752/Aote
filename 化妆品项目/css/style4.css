@@ -1,0 +1,126 @@
+
+@media screen and (min-width:800px) {
+	.pingpai{
+		width:100%;
+		height:1730px;
+		background-color: rgb(0,0,0);
+	}
+	.Pp_content{
+		width:1250px;
+		padding-top:40px;
+		margin:0 auto;
+	}
+	.pingpai .cont_top,.cont_center{
+		width:1250px;
+		height:470px;
+		background-color:rgb(0,0,0);
+		margin-top:40px;
+	}
+	.pingpai .cont_top img{
+		width:410px;
+		height:350px;
+		float: left;
+	}
+	.pingpai .cont_center img{
+		width:410px;
+		height:350px;
+		float: left;
+	}
+	.pingpai .top_right{
+		float:right;
+		width:760px;
+	}
+	.pingpai .top_right .brand{
+		width:750px;
+		height:55px;
+		text-align:center;
+		line-height: 55px;
+		border:2px solid rgb(239,193,124);
+		color: rgb(239,193,124);
+		font-size:18px;
+		font-family:"华文楷体";
+		font-weight:700;
+		transition: all 0.5s linear 0s;
+		border-radius:10px;
+	}
+	.pingpai .top_right .brand:hover{
+		transform:scaleX(1.1);
+		color: rgb(0,0,0);
+		background-color: rgb(239,193,124);
+		border-radius:10px;
+	}
+	.pingpai .top_right p{
+		display:inline-block;
+	}
+	.pingpai .top_right h3{
+		color:white;
+		font-family:"华文楷体";
+		margin-bottom:34px;
+		margin-top:34px;
+	}
+	.pingpai .top_right p.wenzi{
+		color:rgb(169,169,169);
+		line-height:36px;
+		font-size: 14px;
+	}
+	.pingpai .cont_bottom{
+		width:1250px;
+		height:620px;
+		background-color: red;
+		margin-top:60px;
+		background: url(../image/back.jpg) no-repeat;
+		background-size:1250px 820px;
+		padding-top:40px;
+	}
+	.pingpai .cont_bottom p,h2{
+		text-align:center;
+	}
+	.pingpai .cont_bottom h2{
+		color:rgb(239,193,124);
+		font-family:"华文楷体";
+	}
+	.pingpai .cont_bottom p{
+		font-size:14px;
+		color: rgb(169,169,169);
+		line-height: 33px;
+		margin-top:50px;
+	}
+}
+@media screen and (max-width:800px) {
+		.pingpai{
+			width:100%;
+			/*height:1730px;*/
+			overflow: hidden;
+			background-color:rgb(0,0,0);
+		}
+		.Pp_content{
+			width:98%;
+			padding-top:40px;
+			margin:0 auto;
+		}
+		.pingpai img{
+			width:98%;
+		}
+		.pingpai .top_right .brand{
+			width:99%;
+			height:30px;
+			text-align:center;
+			line-height: 30px;
+			border:1px solid rgb(239,193,124);
+			color: rgb(239,193,124);
+			font-size:14px;
+		}
+		.pingpai .top_right h3{
+			color:white;
+			/*font-family:"华文楷体";*/
+			margin-bottom:34px;
+			margin-top:34px;
+			font-size: 15px;
+			font-weight:400;
+		}
+		.pingpai .top_right p.wenzi{
+			color:rgb(169,169,169);
+			line-height:36px;
+			font-size: 13px;
+		}
+	}
